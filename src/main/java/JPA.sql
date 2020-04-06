@@ -1,11 +1,6 @@
-CREATE TABLE Cd(
-id INTEGER(255),
-title VARCHAR(255),
-desc VARCHAR(255),
-year INTEGER(255),
-artist VARCHAR(255),
-price INTEGER(255)
-);
+CREATE DATABASE jpaEntityDemo;
+USE jpaEntityDemo;
+CREATE TABLE Cd(id INTEGER(255), title VARCHAR(255), des VARCHAR(255), year INTEGER(255), artist VARCHAR(255), price INTEGER(255));
 
 CREATE TABLE artist(
 id INTEGER(255),
